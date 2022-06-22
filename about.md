@@ -3,6 +3,6 @@ layout: page
 title: About
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+My name is Mr. Ng. I'm a math teacher. 
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+This website was built off of **Not Pure Poole**. For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
