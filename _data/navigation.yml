@@ -1,8 +1,9 @@
-- title: Blog
+- title: Home
   url: /
+- title: RGuides
+  url: https://kaisamng.github.io/RGuides
 - title: About
   url: /about/
 - title: CV
   url: /cv/
-- title: RGuides
-  url: https://kaisamng.github.io/RGuides
+
