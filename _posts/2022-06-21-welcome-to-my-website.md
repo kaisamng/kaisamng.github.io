@@ -6,7 +6,7 @@ last_modified_at: 2022-06-21 20:33:02 +0800
 tags: [welcome]
 toc:  true
 ---
-Welcome! If you found this page and you're a student, you probably are looking for the [RGuides page](https://kaisamng.github.io/RGuides/index.html) instead. 
+Welcome! If you found this page and you're a student, you probably are looking for the [RGuides page](https://tjhsststats.github.io/RGuides/index.html) instead. 
 {: .message }
 
 ## About Me

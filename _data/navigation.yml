@@ -1,9 +1,9 @@
-- title: Home
+- title: Home/About
   url: /
 - title: RGuides
-  url: https://kaisamng.github.io/RGuides
-- title: About
-  url: /about/
+  url: https://tjhsststats.github.io/RGuides/index.html
+- title: Blog
+  url: /blog.html
 - title: CV
   url: /cv/
 
