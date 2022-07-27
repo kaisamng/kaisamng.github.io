@@ -1,0 +1,58 @@
+---
+layout: default_cleaner
+permalink: projects.html
+---
+
+{% include home-header.html %}
+
+<h1> Projects </h1>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 3fr)); grid-column-gap: 3%;">
+    <div>
+        <a href="https://tjhsststats.github.io/RGuides/index.html"> <h1>Intro to R for High School Students</h1></a>
+        <img src="assets/Intro_to_R.png"></img>
+        <p>A comprehensive textbook that introduces basic Statistics concepts and shows how to execute them in R. Written for students who are in the midst of taking a Introductory Statistics class. </p>
+        <p>Gives students examples of how to create data visualizations with base R Graphics and ggplot, run one-sample and two-sample t-tests, and one-way ANOVA. Includes Shiny apps for coding practice and code checking.</p>
+    </div>
+    <div>
+        <h1>Home Assistant Automation System</h1>
+        <link rel="stylesheet" href="/assets/css/slider.css">
+        <div class="container-slider">
+            <div class="slider">
+              <div class="slider__slides">
+                <div class="slider__slide active">
+                    <img src="assets/HA_1.png" alt="Climate, Cleaning, and Energy Monitoring"></img>
+                </div>
+                <div class="slider__slide">
+                    <img src="assets/HA_2.png" alt="Lights"></img>
+                </div>
+                <div class="slider__slide">
+                  <img src="assets/HA_3.png" alt="Monitoring Energy Usage" />
+                </div>
+                <div class="slider__slide">
+                  <img src="assets/HA_4.png" alt="A statue of the Buddha in Thailand" />
+                </div>
+              </div>
+              <div id="nav-button--prev" class="slider__nav-button"></div>
+              <div id="nav-button--next" class="slider__nav-button"></div>
+              <div class="slider__nav">
+                <div class="slider__navlink active"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+                <div class="slider__navlink"></div>
+              </div>
+            </div>
+          </div>
+
+        <p>A local home autuomation server using <a href="https://github.com/home-assistant/core">Home Assistant</a>, controlling lights, TV, climate, cleaning functions, and several Alexa speakers. Runs on a Zigbee and MQTT network, proxied through a Cloudflare Zero-Trust tunnel.</p>
+        <p>Pulls Geolocation data from phones, weather data from Tomorrow.io, presence and motion sensor detection data, and other sensor data into a local PostgreSQL database.</p>
+        <p>Lights change color temperature based on time of day and weather condition. Lights and HVAC automatically turn off based on presence detection. Connected to Alexa and Homekit proxied through local servers and Cloudflare.</p>
+    </div>
+    <div>
+        <h1>Personal Cloud Sever with Nextcloud</h1>
+        <img src="assets/Nextcloud.png"></img>
+        <p>Created a personal Dropbox-like server using <a href="https://github.com/nextcloud/docker">Nextcloud</a>, running on Network Attached Storage at home. Runs on Docker, proxied through Cloudflare Zero-Trust, with Redis server for memory caching and PostgreSQL for backend.</p>
+    </div>
+</div>
+
+
+<script src="/assets/js/slider.js"></script>
