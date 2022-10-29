@@ -1,7 +1,7 @@
 # Setup
 title: Kai Sam Ng
-description: Math and CS Teacher
-url: https://kaisamng.github.io
+description: Technical Educator
+url: https://kaisamng.dev
 avatar: /avatar.jpg
 paginate: 5
 permalink: pretty
@@ -53,4 +53,4 @@ sass:
 # Specify the author for blog posts
 author:
   name: Kai Sam Ng
-  url: https://github.com/kaisamng
+  url: https://kaisamng.dev
