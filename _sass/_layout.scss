@@ -68,6 +68,9 @@ footer {
   .content {
     width: 100%;
   }
+  .sidebar-left {
+    height: 75vh;
+  }
 }
 
 @media (min-width: $md-width) and (max-width: $lg-width) {
