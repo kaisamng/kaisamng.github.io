@@ -1,6 +1,6 @@
-- title: Email
-  url: mailto://postmaster@kaisamng.dev
-  icon: fas fa-envelope
+# - title: Email
+#   url: mailto://postmaster@kaisamng.dev
+#   icon: fas fa-envelope
 - title: Twitter
   url: https://twitter.com/kaisamng
   icon: fab fa-twitter
